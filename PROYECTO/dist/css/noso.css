@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;   
+  }
+  .fondo{
+    /*FONDOOOCO GENERAL*/
+    background-image: url(../img/Premium\ Photo\ _\ Top\ view\ different\ types\ of\ tools.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 55px 80px;
+    display: flex;
+  }
+  
+
+  .container{
+    margin: auto;
+    
+  }
+  .section2{
+    width: 80%;
+    margin: auto;
+    padding: 55px 80px;
+  }
+  .secciontitle{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: #eacb2fe5;
+    font-weight: bold;
+    margin: 25px 0;
+  }
+  .tit{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #eacb2fe5;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  .us{
+    display: flex;
+  }
+  .us-text{
+    width: 60%;
+    padding: 0 10% 0 0;
+  }
+  .parrafo{
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffffe5;
+    text-align: justify;
+  }
+  .text{
+    margin: 20px 0;
+  }
+  .us-rs{
+    margin: 20px 0;
+  }
+  .us-rs-title{
+    font-family: 'roboto', sans-serif;
+    font-size: 20px 0;
+    color: #eacb2fe5;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  .rs-icon{
+    margin: 20px 0;
+  }
+  .rs-link{
+    margin: 0 10px;
+  }
+  .usimg{
+    padding-top: 10px;
+    width: 900px;
+  }
+  .img-img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+
+
+
+
+
+/*BARRA*/
+.header{
+    background: #2c3a5f;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    height:0px;
+  }
+  .menu-list{
+    width: 100%;
+    text-align: right;
+    color: #bfb6b6;
+   
+  }
+  .menu-list li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-family:'Hammersmith One', Helvetica, sans-serif;
+    font-weight:bold;
+    color:#de141b;
+    letter-spacing:2px;
+    font-size:12.5px;
+  }
+  a {
+    color: #ded9d5;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #e46415;
+  }

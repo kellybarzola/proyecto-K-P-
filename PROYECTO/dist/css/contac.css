@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*FONDOOOCO GENERAL*/
+    background-image: url(../img/Premium\ Photo\ _\ Top\ view\ different\ types\ of\ tools.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #eacb2fe5;
+}
+.contact .content p{
+    font-weight: 300;
+    color: rgba(247, 204, 124, 0.87);
+    font-size: 25px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #36dbb7e1;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 20px;
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.contacform{
+    width: 40%;
+    padding: 40px;
+    background: #2c3a5f;;
+}
+.contacform h2{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.contacform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contacform .inputbox input,
+.contacform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 18px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    resize: none;
+}
+.contacform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 19px;
+    margin: 10px 0; 
+    pointer-events: none;
+    transition: 0.5s;
+    color: #000000;
+}
+.contacform .inputbox input:focus ~ span,
+.contacform .inputbox input:valid ~ span,
+.contacform .inputbox textarea:focus ~ span,
+.contacform .inputbox textarea:valid ~ span{
+    color: rgb(218, 128, 32);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contacform .inputbox input[type="submit"]{
+    width: 100px;
+    background: rgb(7, 30, 95);
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .contacform{
+        width: 100%;
+    }
+}
+iframe{
+    margin-left: 70px;
+}
+
+
+
+
+
+/*BARRA*/
+.header{
+    background: #2c3a5f;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    height:0px;
+  }
+  .menu-list{
+    width: 100%;
+    text-align: right;
+    color: #bfb6b6;
+   
+  }
+  .menu-list li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-family:'Hammersmith One', Helvetica, sans-serif;
+    font-weight:bold;
+    color:#de141b;
+    letter-spacing:2px;
+    font-size:12.5px;
+  }
+  a {
+    color: #ded9d5;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #e46415;
+  }
